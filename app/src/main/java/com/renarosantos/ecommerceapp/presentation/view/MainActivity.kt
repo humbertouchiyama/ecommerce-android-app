@@ -1,11 +1,13 @@
-package com.renarosantos.ecommerceapp
+package com.renarosantos.ecommerceapp.presentation.view
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.renarosantos.ecommerceapp.presentation.viewstate.ProductListViewState
 import com.renarosantos.ecommerceapp.databinding.ActivityMainBinding
+import com.renarosantos.ecommerceapp.presentation.ProductListViewModel
 
 class MainActivity : AppCompatActivity() {
 
